@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane prefHeight="428.0" prefWidth="315.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.tarea3.PrimaryController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="296.0" minHeight="10.0" prefHeight="89.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="339.0" minHeight="10.0" prefHeight="339.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <TextField fx:id="pantalla" maxWidth="261.0" minWidth="100.0" prefHeight="25.0" prefWidth="261.0">
+         <GridPane.margin>
+            <Insets left="30.0" />
+         </GridPane.margin>
+      </TextField>
+      <Button mnemonicParsing="false" onAction="#numero2" prefHeight="38.0" prefWidth="33.0" text="2" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="300.0" left="90.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#numero1" prefHeight="36.0" prefWidth="33.0" text="1" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="300.0" left="40.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#numero3" prefHeight="72.0" prefWidth="33.0" text="3" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="300.0" left="140.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#resta" prefHeight="38.0" prefWidth="32.0" text="-" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="300.0" left="190.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#borrar" prefHeight="38.0" prefWidth="40.0" text="c" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="300.0" left="240.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#numero4" prefHeight="39.0" prefWidth="33.0" text="4" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="200.0" left="40.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#numero5" prefHeight="39.0" prefWidth="33.0" text="5" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="200.0" left="90.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#numero6" prefHeight="39.0" prefWidth="33.0" text="6" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="200.0" left="140.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#suma" prefHeight="38.0" prefWidth="33.0" text="+" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="200.0" left="190.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#borrar2" prefHeight="38.0" prefWidth="40.0" text="ce" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="200.0" left="240.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#numero7" prefHeight="38.0" prefWidth="33.0" text="7" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="100.0" left="40.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#numero8" prefHeight="38.0" prefWidth="33.0" text="8" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="100.0" left="90.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#numero9" prefHeight="38.0" prefWidth="33.0" text="9" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="100.0" left="140.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#multiplicacion" prefHeight="38.0" prefWidth="33.0" text="*" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="100.0" left="190.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#entre" prefHeight="38.0" prefWidth="40.0" text="1/x" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets bottom="100.0" left="240.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#numero0" prefHeight="38.0" prefWidth="33.0" text="0" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="40.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#masmenos" prefHeight="38.0" prefWidth="35.0" text="+/-" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="90.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="33.0" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="140.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#division" prefHeight="38.0" prefWidth="33.0" text="/" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="190.0" />
+         </GridPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#resultado" prefHeight="38.0" prefWidth="40.0" text="=" textFill="RED" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="240.0" />
+         </GridPane.margin>
+      </Button>
+   </children>
+</GridPane>
